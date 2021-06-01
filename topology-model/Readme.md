@@ -1,4 +1,4 @@
-# Topology Model
+# Configure Topology Model
 
 ## Generic type
 Settings > Topology model > Generic types.
@@ -37,5 +37,20 @@ Settings > Topology model > Generic relationships.
 - Create relationship 
 ![image](https://user-images.githubusercontent.com/40337213/120231423-addccb80-c251-11eb-907f-bb02b2c445fe.png)
 
+
+# Result Topology Model
+The result can be show in the API/v2/entityTypes  
+
+- Export your variables
+
+      export MyTenant=<MyTenant>
+      export MyToken=<MyToken>
+      export entity1=logistics:truck
+      export entity2=logistics:container
+
+- Display the API
+
+      https://$MyTenant/api/v2/entityTypes/$entity1?Api-Token=$MyToken
+      https://$MyTenant/api/v2/entityTypes/$entity2?Api-Token=$MyToken
 
 
