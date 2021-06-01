@@ -87,11 +87,18 @@ Run the data ingest for a host :
 
 # Run the script to generate continue data ingest
 
-    cd ~
-    git clone https://github.com/JLLormeau/easy-data-ingest
-    cd easy-data-ingest/data-ingest
-    chmod +x data-ingest-easy-shipping-ltd.sh
-    ./data-ingest-easy-shipping-ltd.sh &
+- Export your variables
+
+      export MyToken=<MyToken>
+      export MyTenant=<MyTenant>
+
+- Run the script
+
+      cd ~
+      git clone https://github.com/JLLormeau/easy-data-ingest
+      cd easy-data-ingest
+      chmod +x data-ingest-easy-shipping-ltd.sh
+      ./data-ingest-easy-shipping-ltd.sh &
       
       
 # Next Step
