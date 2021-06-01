@@ -44,19 +44,19 @@ Display the API on your favorite browser (tips : add json viewer plugin)
 
  - API **GET entityTypes** for `logistics:truck` 
   
-      https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
+       https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
     
     ![image](https://user-images.githubusercontent.com/40337213/120362467-661a7a80-c30b-11eb-9586-e17d8c07304d.png)
 
  - API **GET entityTypes** for `logistics:container`
        
-      https://<MyTenant>/api/v2/entityTypes/logistics:container?Api-Token=<MyToken>
+       https://<MyTenant>/api/v2/entityTypes/logistics:container?Api-Token=<MyToken>
       
     ![image](https://user-images.githubusercontent.com/40337213/120362741-b42f7e00-c30b-11eb-9781-4fc32cc3b6c6.png)
     
  - API **GET entities** for logistics:container
  
-      https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:container)&Api-Token=<MyToken>
+       https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:container)&Api-Token=<MyToken>
 
      ![image](https://user-images.githubusercontent.com/40337213/120364835-fd80cd00-c30d-11eb-8774-90d23add416b.png)
 
