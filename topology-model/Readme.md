@@ -54,7 +54,7 @@ Display the API on your favorite browser (tips : add json viewer plugin)
       
     ![image](https://user-images.githubusercontent.com/40337213/120362741-b42f7e00-c30b-11eb-9781-4fc32cc3b6c6.png)
     
- - API **GET entities** for logistics:container
+ - API **GET entities** for `logistics:container`
  
        https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:container)&Api-Token=<MyToken>
 
