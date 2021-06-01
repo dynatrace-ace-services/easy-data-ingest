@@ -42,6 +42,8 @@ Settings > Topology model > Generic relationships.
 The result can be show in the API/v2/entityTypes  
 Display the API on your favorite browser (tips : add json viewer plugin)
 
+## API
+
  - API **GET entityTypes** for `logistics:truck` 
   
        https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
@@ -60,12 +62,26 @@ Display the API on your favorite browser (tips : add json viewer plugin)
 
      ![image](https://user-images.githubusercontent.com/40337213/120364835-fd80cd00-c30d-11eb-8774-90d23add416b.png)
 
-# Create Management Zone
+## Management Zone
 
- - For Container 111111
+ - For `Container 111111`
+
+       type("logistics:container"),entityName.equals("111111")
+       
   ![image](https://user-images.githubusercontent.com/40337213/120365801-2eadcd00-c30f-11eb-91e6-0f6cdc6bdeb1.png)
 
- - For Container 234321
+ - For `Container 234321`
+
+       type("logistics:container"),entityName.equals("234321")
+
   ![image](https://user-images.githubusercontent.com/40337213/120365965-5b61e480-c30f-11eb-8dcd-26e18d1ebcb7.png)
 
+
+## Tags
+You can also create an auto tag : 
+
+  ![image](https://user-images.githubusercontent.com/40337213/120367540-4a19d780-c311-11eb-9218-31120947ad37.png)
+
+
+## Data Explorer
 
