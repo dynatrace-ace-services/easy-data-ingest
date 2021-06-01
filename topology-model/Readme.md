@@ -80,8 +80,10 @@ Display the API on your favorite browser (tips : add json viewer plugin)
 ## Tags
 You can also create an auto tag : 
 
-  ![image](https://user-images.githubusercontent.com/40337213/120367540-4a19d780-c311-11eb-9218-31120947ad37.png)
+ - For `Container 111111`
+
+       type("logistics:container"),entityName.equals("111111")
+  ![image](https://user-images.githubusercontent.com/40337213/120369070-1770de80-c313-11eb-9690-e4d1e9d5c06e.png)
 
 
-## Data Explorer
 
