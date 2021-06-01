@@ -7,6 +7,10 @@ In this lab you will collect metrics in Dynatrace with API v2 Data Ingest and cr
   - [Topology Model](/topology-model) : organise the metrics
   - [Data Explorer](/data-explorer) : display the metrics
 
+## prerequisite
+
+  - this lab use linux script but you can easily adapt it on windows. 
+
 ## more information about metric ingestion with Dynatrace 
 
 - telegraph: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/telegraf/  
