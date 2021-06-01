@@ -41,16 +41,15 @@ Settings > Topology model > Generic relationships.
 # Result Topology Model
 The result can be show in the API/v2/entityTypes  
 
-- Export your variables
+- Display the API on your favorite browser (tips : add json viewer plugin)
 
-      export MyTenant=<MyTenant>
-      export MyToken=<MyToken>
-      export entity1=logistics:truck
-      export entity2=logistics:container
+      https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
+    
+    ![image](https://user-images.githubusercontent.com/40337213/120362467-661a7a80-c30b-11eb-9586-e17d8c07304d.png)
 
-- Display the API
-
-      https://$MyTenant/api/v2/entityTypes/$entity1?Api-Token=$MyToken
-      https://$MyTenant/api/v2/entityTypes/$entity2?Api-Token=$MyToken
+       
+      https://<MyTenant>/api/v2/entityTypes/logistics:container?Api-Token=<MyToken>
+      
+    ![image](https://user-images.githubusercontent.com/40337213/120362741-b42f7e00-c30b-11eb-9781-4fc32cc3b6c6.png)
 
 
