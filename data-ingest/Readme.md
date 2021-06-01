@@ -98,7 +98,7 @@ Run the data ingest for a host :
       git clone https://github.com/JLLormeau/easy-data-ingest
       cd easy-data-ingest
       chmod +x data-ingest-easy-shipping-ltd.sh
-      ./data-ingest-easy-shipping-ltd.sh &
+      ./data-ingest-easy-shipping-ltd-Saas.sh &
       
       
 # Next Step
