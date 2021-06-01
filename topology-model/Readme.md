@@ -51,5 +51,12 @@ The result can be show in the API/v2/entityTypes
       https://<MyTenant>/api/v2/entityTypes/logistics:container?Api-Token=<MyToken>
       
     ![image](https://user-images.githubusercontent.com/40337213/120362741-b42f7e00-c30b-11eb-9781-4fc32cc3b6c6.png)
+    
+    
+      https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:container)&Api-Token=<MyToken>
+
+     ![image](https://user-images.githubusercontent.com/40337213/120364835-fd80cd00-c30d-11eb-8774-90d23add416b.png)
+
+# Create Management Zone
 
 
