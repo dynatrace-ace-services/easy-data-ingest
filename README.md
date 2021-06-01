@@ -22,5 +22,5 @@ In this lab you will collect metrics in Dynatrace with API v2 Data Ingest and cr
 https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/  
 https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/topology-model/  
 https://www.dynatrace.com/support/help/how-to-use-dynatrace/dashboards-and-charts/explorer/  
+https://www.dynatrace.com/support/help/dynatrace-api/environment-api/entity-v2/entity-selector/  
 https://www.dynatrace.com/support/help/reference/monitoring-consumption-calculation/metric-cost-calculation/  
-https://www.dynatrace.com/support/help/dynatrace-api/environment-api/entity-v2/entity-selector/
