@@ -1,7 +1,7 @@
 #/bin/ksh
 
-export URL_OA="http://localhost:14499/metrics/ingest"
-export Header="Content-Type: text/plain; charset=utf-8"
+URL_OA="http://localhost:14499/metrics/ingest"
+Header="Content-Type: text/plain; charset=utf-8"
 
 while true
  do
