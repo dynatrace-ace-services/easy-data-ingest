@@ -9,7 +9,7 @@ In this lab you will collect metrics in Dynatrace with API v2 Data Ingest and cr
 
 ## prerequisite
 
-  - this lab use linux script but you can easily adapt it on windows. 
+  - this lab uses linux script but you can easily adapt it on windows. 
 
 ## more information about metric ingestion with Dynatrace 
 
