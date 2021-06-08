@@ -18,7 +18,13 @@ In this lab you will manually ingest data directly with Dynatrace Saas  or Dynat
 - Run the data ingest
 
       curl -H "Authorization: Api-Token "$MyToken"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
- 
+      
+- Result
+      ![image](https://user-images.githubusercontent.com/40337213/121240421-9a0d1700-c89a-11eb-9dba-d671f3c36cbe.png)
+
+The metric is collected in Dynatrace but is not attached to the topology model. 
+
+
 ## Entry point = ActiveGate 
 - Export the variables
 
@@ -40,6 +46,10 @@ In this lab you will manually ingest data directly with Dynatrace Saas  or Dynat
 
       curl -H "Authorization: Api-Token "$MyToken"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_AG" --insecure
 
+- Result
+
+It's exatly the same type of result as the previous exercice.  
+
 ## Entry point = OneAgent
 - Prerequisite
   Go to `Settings > Monitoring > Monitored technologies` => In the list of supported technologies, search for the Dynatrace OneAgent StatsD, Pipe, HTTP Metric API entry.  
@@ -54,11 +64,25 @@ In this lab you will manually ingest data directly with Dynatrace Saas  or Dynat
 - Run the data ingest
 
       curl -X POST  -H "$Header" --data-ascii "$Metric" "$URL_OA"
- 
 
-## Attached to an entityid
+- Result
 
-- **host**
+In this case the metric is attached to the HostId where the OneAgent is installed.   
+
+
+# Attached the metric to an entityid
+
+In case the metric is not attached to an entity (ingested from an ActiveGate of from  Dynatrace cluster), you can : 
+      - attach the metric `manually`to an know **entityid**
+      - or use the **topology model** to create `automatically`the data model with new Custom_Device.  
+
+## Attached `manually` to an entityid
+
+ if you add the entityid in the metric : for exemple Metric="dmo4.truck.fuel.total,`dt.entity.host=HOST-XXXXXXX`,trucknr=04,model=mac-titan 12034"
+
+Lets do these exercices to try the manually configuration :  
+
+- **hostid**
             
       export Metric="dmo4.truck.fuel.total,dt.entity.host=HOST-XXXXXXX,trucknr=04,model=mac-titan 12034"
 
@@ -68,8 +92,9 @@ Run the data ingest for a host :
 
       curl -H "Authorization: Api-Token "$Api-Token"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
 
-- **custom devive**
-   Run the dataingest for a custom device : 
+- **custom_devive**
+
+   Create manually your own custom device and attach the metric to it : 
 
       export Metric="demo5.truck.fuel.total,dt.entity.custom_device=CUSTOM_DEVICE-XXXXXXXX,trucknr=05,model=mac-anthem 9432"
   to create a custom devive, open 3technologie" and clic on "Custom Device" + [...] + New Custom Device
@@ -77,7 +102,9 @@ Run the data ingest for a host :
 
       curl -H "Authorization: Api-Token "$Api-Token"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
 
-- **entityid list** 
+There are many entityid you can use like that for exemple : 
+
+- **entity list** 
 
       dt.entity.host 
       dt.entity.process_group_instance
@@ -87,6 +114,10 @@ Run the data ingest for a host :
       dt.entity.custom_device
       dt.entity.custom_device_group
       dt.entity.aws_load_balancer
+
+
+## Create `automatically` the topology model
+
 
 # Run the script to generate continue data ingest
 
