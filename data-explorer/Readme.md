@@ -17,6 +17,17 @@ On Dynatrace, metric :
 - Modify the chart wih the code menu 
 ![image](https://user-images.githubusercontent.com/40337213/120180868-97605100-c20c-11eb-9e96-0eec25bbc12e.png)
 
+## Matada
+
+- You can modify the metadata here :  
+![image](https://user-images.githubusercontent.com/40337213/121270332-c9834a00-c8c1-11eb-823e-7abe97f15a22.png)
+
+- Apply this configuration
+![image](https://user-images.githubusercontent.com/40337213/121270469-18c97a80-c8c2-11eb-8ce2-e09c31196e4b.png)
+
+- You can create manually your topology model (see at the section [topology model](/topology-model)
+![image](https://user-images.githubusercontent.com/40337213/121270696-78c02100-c8c2-11eb-9da3-63f6e19a6ea5.png)
+
 # Next Step
 
 - [Topology Model](/topology-model) : add management zone or tags directly on your metrics definition
