@@ -22,7 +22,6 @@ Go to `Settings > Topology model > Generic types`
 ![image](https://user-images.githubusercontent.com/40337213/120230877-833e4300-c250-11eb-8bc3-b8d212a2a158.png)
 
 - Result
-![image](https://user-images.githubusercontent.com/40337213/121258136-d480af00-c8ae-11eb-9f3e-18c59b0ccfca.png)
 
 
 ## Create entity Container
