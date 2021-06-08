@@ -1,6 +1,6 @@
 # Topology model
 
-In this lab we will define 2 new entities : 
+In this lab we will define 2 new entities - the metrics will be attached automatically to these entities : 
   - **Truck**     with entityid = `logistics:truck`
   - **Container** with entityid = `logistics:container`
 ![image](https://user-images.githubusercontent.com/40337213/120231658-1f1c7e80-c252-11eb-9599-a4f3efe1d06f.png)
