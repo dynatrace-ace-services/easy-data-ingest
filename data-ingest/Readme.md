@@ -136,11 +136,10 @@ To start this exercise, we will generate a data stream with a shell script :
       ./data-ingest-easy-shipping-ltd.sh &
 
 
-- Result
-For the Truck
+- Result for the Truck data ingest 
 ![image](https://user-images.githubusercontent.com/40337213/121258136-d480af00-c8ae-11eb-9f3e-18c59b0ccfca.png)
 
-For the Container Ship : 
+- Result for the Container Ship ingest 
 ![image](https://user-images.githubusercontent.com/40337213/121258573-5d97e600-c8af-11eb-814b-49569e7d8844.png)
 
 # Generate the toplogy model
