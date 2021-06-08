@@ -134,8 +134,15 @@ To start this exercise, we will generate a data stream with a shell script :
       cd easy-data-ingest
       chmod +x data-ingest-easy-shipping-ltd.sh
       ./data-ingest-easy-shipping-ltd.sh &
-      
-      
+
+
+- Result
+For the Truck
+![image](https://user-images.githubusercontent.com/40337213/121258136-d480af00-c8ae-11eb-9f3e-18c59b0ccfca.png)
+
+For the Container Ship : 
+![image](https://user-images.githubusercontent.com/40337213/121258573-5d97e600-c8af-11eb-814b-49569e7d8844.png)
+
 # Generate the toplogy model
 Continue the lab here : 
 - [topology model](/topology-model)
