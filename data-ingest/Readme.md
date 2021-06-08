@@ -125,12 +125,11 @@ To start this exercise, we will generate a data stream with a shell script :
 
       export MyToken=<MyToken>
       export MyTenant=<MyTenant>
-      export Prefix=demo6
 
 - Run the script
 
       cd ~
-      git clone https://github.com/JLLormeau/easy-data-ingest
+      git clone https://github.com/dynatrace-ace-services/easy-data-ingest
       cd easy-data-ingest
       chmod +x data-ingest-easy-shipping-ltd.sh
       ./data-ingest-easy-shipping-ltd.sh &
