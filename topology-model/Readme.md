@@ -70,14 +70,14 @@ With the API **GET entities** for `logistics:truck`
  
      https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:truck)&Api-Token=<MyToken>
 
-     ![image](https://user-images.githubusercontent.com/40337213/121268163-b40c2100-c8bd-11eb-9207-3b040947a0b2.png)
+    ![image](https://user-images.githubusercontent.com/40337213/121268163-b40c2100-c8bd-11eb-9207-3b040947a0b2.png)
 
 
 and API **GET entityTypes** for `logistics:truck` 
   
      https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
     
-     ![image](https://user-images.githubusercontent.com/40337213/121267864-24ff0900-c8bd-11eb-891c-44d52c062276.png) 
+    ![image](https://user-images.githubusercontent.com/40337213/121267864-24ff0900-c8bd-11eb-891c-44d52c062276.png) 
 
 ## Management Zone
 
@@ -110,11 +110,6 @@ You can also create an auto tag :
        type("logistics:container"),entityName.equals("111111")
   ![image](https://user-images.githubusercontent.com/40337213/120369070-1770de80-c313-11eb-9690-e4d1e9d5c06e.png)
 
-
-## Go further with the API
-
-
-Do the same for entityId= `logistics:container`
 
 # Next Step
 [Data Explorer](/data_explorer)
