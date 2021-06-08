@@ -109,4 +109,7 @@ You can also create an auto tag :
 
 
 # Next Step
-[Data Explorer](/data_explorer)
+
+Telegraph: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/telegraf/
+StatsD: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/statsd/
+OpenTelemetry: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/opentelemetry/
