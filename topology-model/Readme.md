@@ -64,16 +64,13 @@ Settings > Topology model > Generic relationships.
 - Add source of the relationship 
 ![image](https://user-images.githubusercontent.com/40337213/121268109-92129e80-c8bd-11eb-971b-83ea982181af.png)
 
-
-- Result 
-With the API **GET entities** for `logistics:truck`
+- Result with the API **GET entities** for `logistics:truck`
  
      https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:truck)&Api-Token=<MyToken>
 
     ![image](https://user-images.githubusercontent.com/40337213/121268163-b40c2100-c8bd-11eb-9207-3b040947a0b2.png)
 
-
-and API **GET entityTypes** for `logistics:truck` 
+- Result and with the API **GET entityTypes** for `logistics:truck` 
   
      https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
     
