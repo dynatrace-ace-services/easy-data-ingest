@@ -24,9 +24,12 @@ In this lab you will manually ingest data directly with Dynatrace Saas  or Dynat
 
       export MyToken=<MyToken>
       export Host_AG=<Host_AG>
-      export URL_AG=https://$Host_AG:9999/e/1234/api/v2/metrics/ingest
+      export TenantId=<TenantId>  
+      export URL_AG=https://$Host_AG:9999/e/$TenantId/api/v2/metrics/ingest
       export Header="Content-Type: text/plain; charset=utf-8"
       export Metric="demo2.truck.fuel.total,trucknr=02,model=mac-conrock 10435"
+
+   For Saas **TenantId** is `1234`.live.dynatrace.com - for Managed **TenantId** is xyz.dynatrace-managed.com/e/`0123456789-abcd-987654321`
 
 - Verify the variables 
 
