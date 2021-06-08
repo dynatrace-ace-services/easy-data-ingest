@@ -9,20 +9,24 @@ In this lab we will define 2 new entities - the metrics will be attached automat
 
 ## Create entity Truck
 Go to `Settings > Topology model > Generic types`
+We will create the entity based on `{trucknr}` dimension : `truck.`fuel.usage,`trucknr`=99,model=mac-granite 17  
+The entity will be automatically discoverd every time the dataingest starts with the name `truck.`fuel.usage  
 
 - Add Type Definition
-![image](https://user-images.githubusercontent.com/40337213/120230806-60ac2a00-c250-11eb-83e3-4ba2d822c477.png)
+![image](https://user-images.githubusercontent.com/40337213/121259364-4efdfe80-c8b0-11eb-9914-2caf15baea7b.png)
 
 - Add Extraction Rule
-![image](https://user-images.githubusercontent.com/40337213/120184444-4737bd80-c211-11eb-9ae2-3f1155e6cb35.png)
+![image](https://user-images.githubusercontent.com/40337213/121260117-38a47280-c8b1-11eb-8997-f4654a4c806d.png)
 
 - Add Source
 ![image](https://user-images.githubusercontent.com/40337213/120184182-faec7d80-c210-11eb-80ac-d24b1235ee35.png)
 
 - Save Changes
-![image](https://user-images.githubusercontent.com/40337213/120230877-833e4300-c250-11eb-8bc3-b8d212a2a158.png)
+![image](https://user-images.githubusercontent.com/40337213/121260853-2c6ce500-c8b2-11eb-8859-fd6b4323b5de.png)
 
 - Result
+Afer a few minutes, the **CUSTOM_DEVICE** attached to the metric appears in this view with the entity = logistics.truck
+![image](https://user-images.githubusercontent.com/40337213/121261358-ee23f580-c8b2-11eb-8c82-76c71d186415.png)
 
 
 ## Create entity Container
@@ -31,7 +35,7 @@ Go to `Settings > Topology model > Generic types`
   Specify its extraction rules `containernr`,  
 ![image](https://user-images.githubusercontent.com/40337213/120230192-1aa29680-c24f-11eb-87f0-edbfa8cf1633.png)
   
-  and specify extraction rules for its attributes `trucknr`.  
+- and specify extraction rules for its attributes `trucknr`.  
 ![image](https://user-images.githubusercontent.com/40337213/120230235-2db56680-c24f-11eb-82c5-d01fb2b1d9f1.png)
 
 
