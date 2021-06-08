@@ -56,10 +56,23 @@ Settings > Topology model > Generic relationships.
 ![image](https://user-images.githubusercontent.com/40337213/120231485-c947d680-c251-11eb-9a88-2339217ba342.png)
 
 - Add source
-![image](https://user-images.githubusercontent.com/40337213/120231371-8ede3980-c251-11eb-8a14-6f8c9943e2cf.png)
+![image](https://user-images.githubusercontent.com/40337213/121267539-a2764980-c8bc-11eb-985b-5acac8a182b0.png)
 
 - Create relationship 
-![image](https://user-images.githubusercontent.com/40337213/120231423-addccb80-c251-11eb-907f-bb02b2c445fe.png)
+![image](https://user-images.githubusercontent.com/40337213/121267074-e87edd80-c8bb-11eb-981e-a607cfe20fe8.png)
+
+- Result 
+With the API **GET entities** for `logistics:truck`
+ 
+     https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:truck)&Api-Token=<MyToken>
+
+     ![image](https://user-images.githubusercontent.com/40337213/121266650-31826200-c8bb-11eb-8210-f4d4e747814f.png)
+
+and API **GET entityTypes** for `logistics:truck` 
+  
+       https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
+    
+    ![image](https://user-images.githubusercontent.com/40337213/120362467-661a7a80-c30b-11eb-9586-e17d8c07304d.png)
 
 
 ## Management Zone
@@ -96,17 +109,6 @@ You can also create an auto tag :
 
 ## Go further with the API
 
- - API **GET entityTypes** for `logistics:truck` 
-  
-       https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
-    
-    ![image](https://user-images.githubusercontent.com/40337213/120362467-661a7a80-c30b-11eb-9586-e17d8c07304d.png)
-   
- - API **GET entities** for `logistics:container`
- 
-       https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:container)&Api-Token=<MyToken>
-
-     ![image](https://user-images.githubusercontent.com/40337213/120364835-fd80cd00-c30d-11eb-8774-90d23add416b.png)
 
 Do the same for entityId= `logistics:container`
 
