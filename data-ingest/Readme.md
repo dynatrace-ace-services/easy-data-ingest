@@ -143,5 +143,5 @@ To start this exercise, we will generate a data stream with a shell script :
 ![image](https://user-images.githubusercontent.com/40337213/121258573-5d97e600-c8af-11eb-814b-49569e7d8844.png)
 
 # Generate the toplogy model
-Now we have to create the data model, we will do that with the `topology type` configuration here : 
+Now we have to create the data model, we will do that with the `topology model` configuration here : 
 - [topology model](/topology-model)
