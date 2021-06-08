@@ -17,7 +17,7 @@ In this lab you will manually ingest data directly with Dynatrace Saas  or Dynat
 
 - Run the data ingest
 
-      curl -H "Authorization: Api-Token "$MyToken"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_Saas"
+      curl -H "Authorization: Api-Token "$MyToken"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
  
 ## Entry point = ActiveGate 
 - Export the variables
