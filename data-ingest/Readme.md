@@ -9,7 +9,7 @@ In this lab you will manually ingest data directly with Dynatrace Saas as entry 
       export MyToken=<MyToken>
       export URL_Saas=https://$MyTenant/api/v2/metrics/ingest
       export Header="Content-Type: text/plain; charset=utf-8"
-      export Metric="truck.fuel.total,trucknr=99,model=mac-granite 10234"
+      export Metric="demodt.truck.fuel.total,trucknr=00,model=mac-dump 10534"
 
 - Verify the variables 
 
@@ -26,7 +26,7 @@ In this lab you will manually ingest data directly with Dynatrace Saas as entry 
       export Host_AG=<Host_AG>
       export URL_AG=https://$Host_AG:9999/e/1234/api/v2/metrics/ingest
       export Header="Content-Type: text/plain; charset=utf-8"
-      export Metric="truck.fuel.total,trucknr=99,model=mac-granite 10234"
+      export Metric="demoag.truck.fuel.total,trucknr=01,model=mac-conrock 10435"
 
 - Verify the variables 
 
@@ -46,7 +46,7 @@ In this lab you will manually ingest data directly with Dynatrace Saas as entry 
 
       export URL_OA=http://localhost:14499/metrics/ingest
       export Header="Content-Type: text/plain; charset=utf-8"
-      export Metric="truck.fuel.total,trucknr=99,model=mac-granite 10234"
+      export Metric="demooa.truck.fuel.total,trucknr=02,model=mac-lrvsw 10635"
 
 - Run the data ingest
 
