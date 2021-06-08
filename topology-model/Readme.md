@@ -42,8 +42,14 @@ Afer a few minutes, the **CUSTOM_DEVICE** attached to the metric appears in this
 - and specify extraction rules for its attribute `trucknr`.  
 ![image](https://user-images.githubusercontent.com/40337213/120230235-2db56680-c24f-11eb-82c5-d01fb2b1d9f1.png)
 
+- Result
+
+![image](https://user-images.githubusercontent.com/40337213/121264245-2b8a8200-c8b7-11eb-8bee-4894b503b751.png)
+
 
 ## Generic relationships 
+
+To complete the topology definition, define a relationship between the truck and the carried container. Without this relationship, the truck- and container-related measurements will be reported separately by Dynatrace with no topological relationship 
 
 Settings > Topology model > Generic relationships.
 - In this section we are going to create the **relationships** between the truck and the carried container according to the dynatrace documentation : https://www.dynatrace.com/support/help/shortlink/custom-topology#define-entity-relationships
@@ -58,17 +64,25 @@ Settings > Topology model > Generic relationships.
 
 ## Management Zone
 
- - For `Container 111111`
+Now we can create the Management Zone rules to filter on boh truck 12 and 99 :  
 
-       type("logistics:container"),entityName.equals("111111")
-       
-  ![image](https://user-images.githubusercontent.com/40337213/120365801-2eadcd00-c30f-11eb-91e6-0f6cdc6bdeb1.png)
+ - Create the Management Zone for the `truck:12`
+With the rule to collecte the metrics type 'container.`
+![image](https://user-images.githubusercontent.com/40337213/121264681-d69b3b80-c8b7-11eb-9f58-f2540257633f.png
 
- - For `Container 234321`
+And with the rule to collecte the metrics type 'truck.`
+![image](https://user-images.githubusercontent.com/40337213/121264855-211cb800-c8b8-11eb-9695-0fca62a149e0.png)
 
-       type("logistics:container"),entityName.equals("234321")
+And add the entity selector role `type(logistics:container),truck("12")`
+![image](https://user-images.githubusercontent.com/40337213/121265364-fb43e300-c8b8-11eb-8835-c36f2b7326fd.png)
 
-  ![image](https://user-images.githubusercontent.com/40337213/120365965-5b61e480-c30f-11eb-8dcd-26e18d1ebcb7.png)
+- Do the same for the `truck:99`
+Entity selector rule : `type("logistics:container"),truck("99")`
+![image](https://user-images.githubusercontent.com/40337213/121265737-8fae4580-c8b9-11eb-937a-f2b3be93625d.png)
+
+- Result 
+You can use the management zone on the metrics (`fuel.` and `container.`) to filter on the truck : 
+![image](https://user-images.githubusercontent.com/40337213/121266120-43173a00-c8ba-11eb-8e23-e8df734e43df.png)
 
 
 ## Tags
@@ -96,3 +110,5 @@ You can also create an auto tag :
 
 Do the same for entityId= `logistics:container`
 
+# Next Step
+[Data Explorer](/data_explorer)
