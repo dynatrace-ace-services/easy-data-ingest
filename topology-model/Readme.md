@@ -3,11 +3,11 @@
 In this lab we will define 2 new entities - the metrics will be attached automatically to these entities : 
   - **Truck**     with entityid = `logistics:truck`
   - **Container** with entityid = `logistics:container`
+
 ![image](https://user-images.githubusercontent.com/40337213/120231658-1f1c7e80-c252-11eb-9599-a4f3efe1d06f.png)
 
-Go to `Settings > Topology model > Generic types`
-
 ## Create entity Truck
+Go to `Settings > Topology model > Generic types`
 
 - Add Type Definition
 ![image](https://user-images.githubusercontent.com/40337213/120230806-60ac2a00-c250-11eb-83e3-4ba2d822c477.png)
@@ -22,6 +22,8 @@ Go to `Settings > Topology model > Generic types`
 ![image](https://user-images.githubusercontent.com/40337213/120230877-833e4300-c250-11eb-8bc3-b8d212a2a158.png)
 
 - Result
+![image](https://user-images.githubusercontent.com/40337213/121258136-d480af00-c8ae-11eb-9f3e-18c59b0ccfca.png)
+
 
 ## Create entity Container
 
