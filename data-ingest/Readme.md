@@ -117,6 +117,7 @@ There are many entityid you can use like that for exemple :
 
 ## Create `automatically` the topology model
 
+To start this exercise, we will generate a data stream with a shell script :   
 
 # Run the script to generate continue data ingest
 
@@ -124,6 +125,7 @@ There are many entityid you can use like that for exemple :
 
       export MyToken=<MyToken>
       export MyTenant=<MyTenant>
+      export Prefix=demo6
 
 - Run the script
 
@@ -134,5 +136,6 @@ There are many entityid you can use like that for exemple :
       ./data-ingest-easy-shipping-ltd.sh &
       
       
-# Next Step
-- [Data Explorer](/data-explorer) : display the metrics
+# Generate the toplogy model
+Continue the lab here : 
+- [topology model](/topololy-model) : 
