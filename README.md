@@ -5,8 +5,8 @@ In this lab you will collect metrics in Dynatrace with API v2 Data Ingest and cr
   - [Easy Shipping LTD](/easy-shipping-ltd) : example of metrics
   - [Data Ingest](/data-ingest) : collect the metrics 
   - [Data Explorer](/data-explorer) : display the metrics
-  - [Topology Model](/topology-model) : add management zone or tags directly on your metrics definition
-  
+  - [Topology Model](/topology-model) : create the data model to include these metrics in the IA
+    
 ## prerequisite
 
   - this lab uses linux script but you can easily adapt it for windows. 
