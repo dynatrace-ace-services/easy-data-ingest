@@ -31,8 +31,12 @@ Afer a few minutes, the **CUSTOM_DEVICE** attached to the metric appears in this
 
 ## Create entity Container
 
-- Repeat for Container metrics
-  Specify its extraction rules `containernr`,  
+- Repeat for Container metrics with this definition : 
+    create entity = `logistics:container`  
+    dimension for the extraction rules = `containernr`  
+    source ingest for the mapping  = satrt with `container.`temperature,containernr=234321,trucknr=99 40
+    
+ Specify its extraction rules `containernr`,  
 ![image](https://user-images.githubusercontent.com/40337213/120230192-1aa29680-c24f-11eb-87f0-edbfa8cf1633.png)
   
 - and specify extraction rules for its attributes `trucknr`.  
@@ -40,6 +44,7 @@ Afer a few minutes, the **CUSTOM_DEVICE** attached to the metric appears in this
 
 
 ## Generic relationships 
+
 Settings > Topology model > Generic relationships.
 - In this section we are going to create the **relationships** between the truck and the carried container according to the dynatrace documentation : https://www.dynatrace.com/support/help/shortlink/custom-topology#define-entity-relationships
 ![image](https://user-images.githubusercontent.com/40337213/120231485-c947d680-c251-11eb-9a88-2339217ba342.png)
