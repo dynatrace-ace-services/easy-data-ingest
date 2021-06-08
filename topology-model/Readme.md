@@ -61,6 +61,10 @@ Settings > Topology model > Generic relationships.
 - Create relationship 
 ![image](https://user-images.githubusercontent.com/40337213/121267074-e87edd80-c8bb-11eb-981e-a607cfe20fe8.png)
 
+- Add source of the relationship 
+![image](https://user-images.githubusercontent.com/40337213/121268109-92129e80-c8bd-11eb-971b-83ea982181af.png)
+
+
 - Result 
 With the API **GET entities** for `logistics:truck`
  
@@ -73,7 +77,6 @@ and API **GET entityTypes** for `logistics:truck`
      https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
     
      ![image](https://user-images.githubusercontent.com/40337213/121267864-24ff0900-c8bd-11eb-891c-44d52c062276.png) 
-
 
 ## Management Zone
 
