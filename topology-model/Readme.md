@@ -70,7 +70,8 @@ With the API **GET entities** for `logistics:truck`
  
      https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:truck)&Api-Token=<MyToken>
 
-     ![image](https://user-images.githubusercontent.com/40337213/121267994-58419800-c8bd-11eb-93b5-2626a8ee78c1.png)
+     ![image](https://user-images.githubusercontent.com/40337213/121268163-b40c2100-c8bd-11eb-9207-3b040947a0b2.png)
+
 
 and API **GET entityTypes** for `logistics:truck` 
   
