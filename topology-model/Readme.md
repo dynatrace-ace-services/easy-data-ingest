@@ -16,7 +16,7 @@ The entity will be automatically discoverd every time the dataingest starts with
 ![image](https://user-images.githubusercontent.com/40337213/121259364-4efdfe80-c8b0-11eb-9914-2caf15baea7b.png)
 
 - Add Extraction Rule
-![image](https://user-images.githubusercontent.com/40337213/121260117-38a47280-c8b1-11eb-8997-f4654a4c806d.png)
+![image](https://user-images.githubusercontent.com/40337213/121262281-26780380-c8b4-11eb-9edd-8cc01681b205.png)
 
 - Add Source
 ![image](https://user-images.githubusercontent.com/40337213/120184182-faec7d80-c210-11eb-80ac-d24b1235ee35.png)
