@@ -1,6 +1,7 @@
 
 #/bin/ksh
 
+Prefix=""
 URL_DT=https://$MyTenant/api/v2/metrics/ingest
 Header="Content-Type: text/plain; charset=utf-8"
 
