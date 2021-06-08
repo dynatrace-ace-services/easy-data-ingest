@@ -70,17 +70,16 @@ It's exatly the same type of result as the previous exercice.
 In this case the metric is attached to the HostId where the OneAgent is installed.   
 
 
-# Attached the metric to an entityid
+# Attached the metric to an entity
 
-In case the metric is not attached to an entity (ingested from an ActiveGate of from  Dynatrace cluster), you can : 
-      - attach the metric `manually`to an know **entityid**
+In case the metric is not attached to an entity (ingested from an ActiveGate of from  Dynatrace cluster), you can :   
+      - attach the metric `manually`to an know **entity**  
       - or use the **topology model** to create `automatically`the data model with new Custom_Device.  
 
-## Attached `manually` to an entityid
+## Attached `manually` to an entity
 
- if you add the entityid in the metric : for exemple Metric="dmo4.truck.fuel.total,`dt.entity.host=HOST-XXXXXXX`,trucknr=04,model=mac-titan 12034"
-
-Lets do these exercices to try the manually configuration :  
+You can add the entity as dimension of the metric during the data ingest treatment => "dmo4.truck.fuel.total,`dt.entity.host=HOST-XXXXXXX`,trucknr=04 12034"  
+We can do these exercice with an hostid an after a custom_device :  
 
 - **hostid**
             
