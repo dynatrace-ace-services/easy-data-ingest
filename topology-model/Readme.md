@@ -37,7 +37,7 @@ Afer a few minutes, the **CUSTOM_DEVICE** attached to the metric appears in this
     source ingest for the mapping  = satrt with `container.`temperature,containernr=234321,trucknr=99 40
     
 - Specify its extraction rules `containernr`,  
-- ![image](https://user-images.githubusercontent.com/40337213/120230192-1aa29680-c24f-11eb-87f0-edbfa8cf1633.png)
+![image](https://user-images.githubusercontent.com/40337213/121263992-bf0f8300-c8b6-11eb-9efb-027360704b55.png)
   
 - and specify extraction rules for its attribute `trucknr`.  
 ![image](https://user-images.githubusercontent.com/40337213/120230235-2db56680-c24f-11eb-82c5-d01fb2b1d9f1.png)
