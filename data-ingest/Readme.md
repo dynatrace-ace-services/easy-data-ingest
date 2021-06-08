@@ -91,7 +91,7 @@ Run the data ingest for a host :
 
       curl -H "Authorization: Api-Token "$Api-Token"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
 
-- **custom_devive**
+- **custom_device**
 
    Create manually your own custom device and attach the metric to it : 
 
