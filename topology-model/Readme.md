@@ -66,13 +66,13 @@ With the API **GET entities** for `logistics:truck`
  
      https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:truck)&Api-Token=<MyToken>
 
-     ![image](https://user-images.githubusercontent.com/40337213/121266650-31826200-c8bb-11eb-8210-f4d4e747814f.png)
+     ![image](https://user-images.githubusercontent.com/40337213/121267994-58419800-c8bd-11eb-93b5-2626a8ee78c1.png)
 
 and API **GET entityTypes** for `logistics:truck` 
   
-       https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
+     https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
     
-    ![image](https://user-images.githubusercontent.com/40337213/120362467-661a7a80-c30b-11eb-9586-e17d8c07304d.png)
+     ![image](https://user-images.githubusercontent.com/40337213/121267864-24ff0900-c8bd-11eb-891c-44d52c062276.png) 
 
 
 ## Management Zone
