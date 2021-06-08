@@ -1,19 +1,19 @@
 # Data Ingest
 
-In this lab you will manually ingest data directly with Dynatrace Saas as entry point, or with active gate as entry point and finally directly from the OneAgent without Token.                  
+In this lab you will manually ingest data directly with Dynatrace Saas  or Dynatrace Managed as entry point, or with active gate as entry point and finally directly from the OneAgent without Token.                  
 
-## Entry point = Dynatrace Saas
+## Entry point = Dynatrace Saas or Managed
 - Export the variables
 
       export MyTenant=<MyTenant>
       export MyToken=<MyToken>
-      export URL_Saas=https://$MyTenant/api/v2/metrics/ingest
+      export URL_DT=https://$MyTenant/api/v2/metrics/ingest
       export Header="Content-Type: text/plain; charset=utf-8"
-      export Metric="demodt.truck.fuel.total,trucknr=00,model=mac-dump 10534"
+      export Metric="demo1.truck.fuel.total,trucknr=01,model=mac-dump 10534"
 
 - Verify the variables 
 
-      echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "URL_Saas="$URL_Saas;echo "Header="$Header;echo "Metric="$Metric 
+      echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "URL_DT="$URL_DT;echo "Header="$Header;echo "Metric="$Metric 
 
 - Run the data ingest
 
@@ -26,7 +26,7 @@ In this lab you will manually ingest data directly with Dynatrace Saas as entry 
       export Host_AG=<Host_AG>
       export URL_AG=https://$Host_AG:9999/e/1234/api/v2/metrics/ingest
       export Header="Content-Type: text/plain; charset=utf-8"
-      export Metric="demoag.truck.fuel.total,trucknr=01,model=mac-conrock 10435"
+      export Metric="demo2.truck.fuel.total,trucknr=02,model=mac-conrock 10435"
 
 - Verify the variables 
 
@@ -46,7 +46,7 @@ In this lab you will manually ingest data directly with Dynatrace Saas as entry 
 
       export URL_OA=http://localhost:14499/metrics/ingest
       export Header="Content-Type: text/plain; charset=utf-8"
-      export Metric="demooa.truck.fuel.total,trucknr=02,model=mac-lrvsw 10635"
+      export Metric="demo3.truck.fuel.total,trucknr=03,model=mac-lrvsw 10635"
 
 - Run the data ingest
 
@@ -57,22 +57,22 @@ In this lab you will manually ingest data directly with Dynatrace Saas as entry 
 
 - **host**
             
-      export Metric="truck.fuel.total,dt.entity.host=HOST-XXXXXXX,trucknr=99,model=mac-granite 10234"
+      export Metric="dmo4.truck.fuel.total,dt.entity.host=HOST-XXXXXXX,trucknr=04,model=mac-titan 12034"
 
 to obtain the value of the HOST-XXXX, click on the Host on Dynatarce and find the HOST-XXXXX directly in the URL parameters:  
 ![image](https://user-images.githubusercontent.com/40337213/120121394-7ca5c200-c1a3-11eb-80c2-e081ae6cbde5.png)
 Run the data ingest for a host : 
 
-      curl -H "Authorization: Api-Token "$Api-Token"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_Saas"
+      curl -H "Authorization: Api-Token "$Api-Token"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
 
 - **custom devive**
    Run the dataingest for a custom device : 
 
-      export Metric="truck.fuel.total,dt.entity.custom_device=CUSTOM_DEVICE-XXXXXXXX,trucknr=99,model=mac-granite 10234"
+      export Metric="demo5.truck.fuel.total,dt.entity.custom_device=CUSTOM_DEVICE-XXXXXXXX,trucknr=05,model=mac-anthem 9432"
   to create a custom devive, open 3technologie" and clic on "Custom Device" + [...] + New Custom Device
 ![image](https://user-images.githubusercontent.com/40337213/120234328-06af6280-c258-11eb-9b8e-cb21c0e6bcea.png)
 
-      curl -H "Authorization: Api-Token "$Api-Token"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_Saas"
+      curl -H "Authorization: Api-Token "$Api-Token"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
 
 - **entityid list** 
 
@@ -97,8 +97,8 @@ Run the data ingest for a host :
       cd ~
       git clone https://github.com/JLLormeau/easy-data-ingest
       cd easy-data-ingest
-      chmod +x data-ingest-easy-shipping-ltd-Saas.sh
-      ./data-ingest-easy-shipping-ltd-Saas.sh &
+      chmod +x data-ingest-easy-shipping-ltd.sh
+      ./data-ingest-easy-shipping-ltd.sh &
       
       
 # Next Step
