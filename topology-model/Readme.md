@@ -1,4 +1,4 @@
-# Configure topology model
+# Topology model
 
 In this lab we will define 2 new entities : 
   - **Truck**     with entityid = `logistics:truck`
