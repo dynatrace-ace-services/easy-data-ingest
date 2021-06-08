@@ -138,4 +138,4 @@ To start this exercise, we will generate a data stream with a shell script :
       
 # Generate the toplogy model
 Continue the lab here : 
-- [topology model](/topololy-model) : 
+- [topology model](/topology-model)
