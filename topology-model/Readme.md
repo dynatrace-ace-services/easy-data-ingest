@@ -98,7 +98,6 @@ Entity selector rule : `type("logistics:container"),truck("99")`
 You can use the management zone on the metrics (`fuel.` and `container.`) to filter on the truck : 
 ![image](https://user-images.githubusercontent.com/40337213/121266120-43173a00-c8ba-11eb-8e23-e8df734e43df.png)
 
-
 ## Tags
 You can also create an auto tag : 
 
@@ -107,9 +106,13 @@ You can also create an auto tag :
        type("logistics:container"),entityName.equals("111111")
   ![image](https://user-images.githubusercontent.com/40337213/120369070-1770de80-c313-11eb-9690-e4d1e9d5c06e.png)
 
+## Data Explorer
+Go to the [Data Explorer](/data-explorer) to create your chart. 
 
 # Next Step
 
-Telegraph: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/telegraf/
-StatsD: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/statsd/
-OpenTelemetry: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/opentelemetry/
+Integrate all type of metrics in your Dynatrace topology model. 
+
+Telegraph: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/telegraf/  
+StatsD: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/statsd/  
+OpenTelemetry: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/opentelemetry/  
