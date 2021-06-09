@@ -25,9 +25,18 @@ The entity will be automatically discoverd every time the dataingest starts with
 - Save Changes
 ![image](https://user-images.githubusercontent.com/40337213/121260853-2c6ce500-c8b2-11eb-8859-fd6b4323b5de.png)
 
-- Result
+- Result with the API **GET entityTypes** for `logistics:truck` 
+  
+      https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
+    
+    ![image](https://user-images.githubusercontent.com/40337213/121267864-24ff0900-c8bd-11eb-891c-44d52c062276.png) 
+
+
+- Result with the **Metrics**
+
 Afer a few minutes, the **CUSTOM_DEVICE** attached to the metric appears in this view with the entity = logistics.truck
 ![image](https://user-images.githubusercontent.com/40337213/121261358-ee23f580-c8b2-11eb-8c82-76c71d186415.png)
+
 
 
 ## Create entity Container
@@ -71,19 +80,14 @@ Settings > Topology model > Generic relationships.
 
     ![image](https://user-images.githubusercontent.com/40337213/121268163-b40c2100-c8bd-11eb-9207-3b040947a0b2.png)
 
-- Result and with the API **GET entityTypes** for `logistics:truck` 
-  
-      https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
-    
-    ![image](https://user-images.githubusercontent.com/40337213/121267864-24ff0900-c8bd-11eb-891c-44d52c062276.png) 
 
 ## Management Zone
 
 Now we can create the Management Zone rules to filter on boh truck 12 and 99 :  
 
- - Create the Management Zone for the `truck:12`
-With the rule to collecte the metrics type `container.`
-![image](https://user-images.githubusercontent.com/40337213/121264681-d69b3b80-c8b7-11eb-9f58-f2540257633f.png
+ - Create the Management Zone for the `truck:12`  
+With the rule to collecte the metrics type `container.`  
+![image](https://user-images.githubusercontent.com/40337213/121264681-d69b3b80-c8b7-11eb-9f58-f2540257633f.png)
 
 And with the rule to collecte the metrics type `truck.`
 ![image](https://user-images.githubusercontent.com/40337213/121264855-211cb800-c8b8-11eb-9695-0fca62a149e0.png)
