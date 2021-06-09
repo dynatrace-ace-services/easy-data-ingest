@@ -110,7 +110,7 @@ You can also create an auto tag. More details on the entity selector [here](http
 ## Data Explorer
 Go to the [Data Explorer](/data-explorer) to create your chart. 
 
-# Next Step
+# Next Steps
 
 - Create your chart 
 with the [Data Explorer](/data-explorer)
