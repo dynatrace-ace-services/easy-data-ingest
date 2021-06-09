@@ -39,7 +39,7 @@ The metric is collected in Dynatrace but is not attached to the topology model.
 
 - Verify the variables 
 
-      echo "Host_AG=https://"$Host_AG;echo "MyToken="$MyToken;echo "URL_AG="$URL_AG;echo "Header="$Header;echo "Metric="$Metric 
+      echo "Host_AG=https://"$Host_AG;echo "MyToken="$MyToken;echo "TenantId="$TenantId;echo "URL_AG="$URL_AG;echo "Header="$Header;echo "Metric="$Metric 
 
 
 - Run the data ingest
