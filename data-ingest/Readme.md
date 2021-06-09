@@ -4,7 +4,6 @@ In this lab you will manually ingest data with different entry point : Dynatrace
 
 ## Entry point = Dynatrace Saas or Managed
 - Export the variables
-Create a token with these both API V2 resources `Ingest Metric` and `Read Entities`   
 
       export MyTenant=<MyTenant>
       export MyToken=<MyToken>
