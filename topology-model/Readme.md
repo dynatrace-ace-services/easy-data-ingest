@@ -82,7 +82,7 @@ Settings > Topology model > Generic relationships.
 Now we can create the Management Zone rules to filter on boh truck 12 and 99 :  
 
  - Create the Management Zone for the `truck:12`
-With the rule to collecte the metrics type 'container.`
+With the rule to collecte the metrics type `container.`
 ![image](https://user-images.githubusercontent.com/40337213/121264681-d69b3b80-c8b7-11eb-9f58-f2540257633f.png
 
 And with the rule to collecte the metrics type 'truck.`
