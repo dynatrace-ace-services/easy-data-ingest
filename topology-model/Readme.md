@@ -1,6 +1,6 @@
 # Topology model
 
-In this lab we will define 2 new entities - the metrics will be attached automatically to these entities : 
+In this lab we will define a [custom toplogy](https://www.dynatrace.com/support/help/shortlink/custom-topology) with these 2 new entities - the metrics will be attached automatically to these entities : 
   - **Truck**     with entityid = `logistics:truck`
   - **Container** with entityid = `logistics:container`
  And we wil create a relationship between the truck metrics and the container ship metrics. 
