@@ -1,6 +1,6 @@
 # Data Explorer
 
-In this lab, we will create our chart with the `Data Explorer`. Go to `Metrics` menu  :  
+In this lab, we will create our chart with the `Data Explorer`. Go to `Metrics` menu :  
 
 - Find text= `truck` 
 ![image](https://user-images.githubusercontent.com/40337213/120179671-2b311d80-c20b-11eb-965d-57a9a590bd40.png)
