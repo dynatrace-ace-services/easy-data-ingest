@@ -19,7 +19,7 @@ In this lab, we will create our chart with the `Data Explorer`. Go to `Metrics` 
 
 ## Matada
 
-- You can modify the metadata here :  
+- You can modify the metadata directly from the `Metrics`  :  
 ![image](https://user-images.githubusercontent.com/40337213/121270332-c9834a00-c8c1-11eb-823e-7abe97f15a22.png)
 
 - Apply this configuration
