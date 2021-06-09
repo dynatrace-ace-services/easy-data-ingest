@@ -85,7 +85,7 @@ Now we can create the Management Zone rules to filter on boh truck 12 and 99 :
 With the rule to collecte the metrics type `container.`
 ![image](https://user-images.githubusercontent.com/40337213/121264681-d69b3b80-c8b7-11eb-9f58-f2540257633f.png
 
-And with the rule to collecte the metrics type 'truck.`
+And with the rule to collecte the metrics type `truck.`
 ![image](https://user-images.githubusercontent.com/40337213/121264855-211cb800-c8b8-11eb-9695-0fca62a149e0.png)
 
 And add the entity selector role `type(logistics:container),truck("12")`
