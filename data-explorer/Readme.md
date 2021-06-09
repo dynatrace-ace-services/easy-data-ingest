@@ -30,4 +30,8 @@ In this lab, we will create our chart with the `Data Explorer`. Go to `Metrics` 
 
 # Next Step
 
-- [Topology Model](/topology-model) : add management zone or tags directly on your metrics definition
+- Go further with data ingest and topology model with : 
+
+**Telegraph**: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/telegraf/  
+**StatsD**: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/statsd/  
+**OpenTelemetry**: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/opentelemetry/  
