@@ -78,8 +78,9 @@ In case the metric is not attached to an entity (ingested from an ActiveGate of 
 
 ## Attached `manually` to an entity
 
-You can add the entity as dimension of the metric during the data ingest treatment => "dmo4.truck.fuel.total,`dt.entity.host=HOST-XXXXXXX`,trucknr=04 12034"  
-We can do these exercice with an hostid an after a custom_device :  
+You can add the entity as dimension of the metric during the data ingest treatment   
+=> "dmo4.truck.fuel.total,`dt.entity.host=HOST-XXXXXXX`,trucknr=04 12034"  
+In this section, we will do it with an hostid an after a manually created custom_device :  
 
 - **hostid**
             
@@ -101,7 +102,7 @@ Run the data ingest for a host :
 
       curl -H "Authorization: Api-Token "$Api-Token"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
 
-There are many entityid you can use like that for exemple : 
+There are many entities you can use like that : 
 
 - **entity list** 
 
