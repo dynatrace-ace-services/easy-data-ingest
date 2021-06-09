@@ -9,6 +9,9 @@ In this lab you will collect metrics in Dynatrace with API v2 Data Ingest and cr
     
 ## prerequisite
 
+  - you need a token with these both API V2 resources `Ingest Metric` and `Read Entities`   
+![image](https://user-images.githubusercontent.com/40337213/121305607-1127c700-c8fe-11eb-8f02-a7db2bde2e68.png)
+
   - this lab uses linux script but you can easily adapt it for windows. 
 
 ## more information about metric ingestion with Dynatrace 
