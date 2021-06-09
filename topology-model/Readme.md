@@ -101,7 +101,8 @@ Entity selector rule : `type("logistics:container"),truck("99")`
 
 - Result 
 You can use the management zone on the metrics (`fuel.` and `container.`) to filter on the truck : 
-![image](https://user-images.githubusercontent.com/40337213/121266120-43173a00-c8ba-11eb-8e23-e8df734e43df.png)
+![image](https://user-images.githubusercontent.com/40337213/121394478-a99b6700-c951-11eb-8082-67cd6534d79f.png)
+
 
 ## Tags
 You can also create an auto tag. More details on the entity selector [here](https://www.dynatrace.com/support/help/dynatrace-api/environment-api/entity-v2/entity-selector/). 
