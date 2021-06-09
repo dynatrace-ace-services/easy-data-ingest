@@ -1,6 +1,6 @@
 # Data Ingest
 
-In this lab you will manually ingest data directly with Dynatrace Saas  or Dynatrace Managed as entry point, or with active gate as entry point and finally directly from the OneAgent without Token.                  
+In this lab you will manually ingest data with different entry point : Dynatrace, ActiveGate, OneAgent and attached the metrics to differents entities.                  
 
 ## Entry point = Dynatrace Saas or Managed
 - Export the variables
