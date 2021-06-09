@@ -112,8 +112,6 @@ You can also create an auto tag. More details on the entity selector [here](http
        type("logistics:container"),entityName.equals("111111")
   ![image](https://user-images.githubusercontent.com/40337213/120369070-1770de80-c313-11eb-9690-e4d1e9d5c06e.png)
 
-## Data Explorer
-Go to the [Data Explorer](/data-explorer) to create your chart. 
 
 # Next Steps
 
