@@ -48,7 +48,7 @@ The metric is collected in Dynatrace but is not attached to the topology model.
 
 - Result
 
-It's exatly the same type of result as the previous exercice.  
+It's exatly the same type of result as the previous exercise.  
 
 ## Entry point = OneAgent
 - Prerequisite
