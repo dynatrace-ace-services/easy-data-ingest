@@ -9,7 +9,8 @@ In this lab we will define 2 new entities - the metrics will be attached automat
 
 ## Create entity Truck
 Go to `Settings > Topology model > Generic types`
-We will create the entity based on `{trucknr}` dimension : `truck.`fuel.usage,`trucknr`=99,model=mac-granite 17  
+We will create the entity based on `{trucknr}`  
+  => dimension : `truck.`fuel.usage,`trucknr`=99,model=mac-granite 17  
 The entity will be automatically discoverd every time the dataingest starts with the name `truck.`fuel.usage  
 
 - Add Type Definition
@@ -111,6 +112,10 @@ Go to the [Data Explorer](/data-explorer) to create your chart.
 
 # Next Step
 
+- Create your chart 
+with the [Data Explorer](/data-explorer)
+
+- Go further with data ingest and topology model 
 Integrate all type of metrics in your Dynatrace topology model. 
 
 Telegraph: https://www.dynatrace.com/support/help/how-to-use-dynatrace/metrics/metric-ingestion/ingestion-methods/telegraf/  
