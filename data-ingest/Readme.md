@@ -90,7 +90,7 @@ to obtain the value of the HOST-XXXX, click on the Host on Dynatarce and find th
 ![image](https://user-images.githubusercontent.com/40337213/120121394-7ca5c200-c1a3-11eb-80c2-e081ae6cbde5.png)
 Run the data ingest for a host : 
 
-      curl -H "Authorization: Api-Token "$Api-Token"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
+      curl -H "Authorization: Api-Token "$MyToken"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
 
 - **custom_device**
 
@@ -100,7 +100,7 @@ Run the data ingest for a host :
   to create a custom devive, open 3technologie" and clic on "Custom Device" + [...] + New Custom Device
 ![image](https://user-images.githubusercontent.com/40337213/120234328-06af6280-c258-11eb-9b8e-cb21c0e6bcea.png)
 
-      curl -H "Authorization: Api-Token "$Api-Token"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
+      curl -H "Authorization: Api-Token "$MyToken"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
 
 There are many entities you can use like that : 
 
