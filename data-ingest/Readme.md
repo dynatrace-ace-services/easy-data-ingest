@@ -92,7 +92,8 @@ to obtain the value of the HOST-XXXX, click on the Host on Dynatarce and find th
 Run the data ingest for a host : 
 
       curl -H "Authorization: Api-Token "$MyToken"" -X POST -H "$Header" --data-ascii "$Metric" "$URL_DT"
-
+      
+      
 - **custom_device**
 
    Create manually your own custom device and attach the metric to it : 
