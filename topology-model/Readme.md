@@ -27,8 +27,8 @@ The entity will be automatically discoverd every time the dataingest starts with
 
 - Result with the API **GET entityTypes** for `logistics:truck` 
   
-      https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
-    
+      https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:truck)&Api-Token=<MyToken>
+      
     ![image](https://user-images.githubusercontent.com/40337213/121267864-24ff0900-c8bd-11eb-891c-44d52c062276.png) 
 
 
@@ -76,7 +76,7 @@ Settings > Topology model > Generic relationships.
 
 - Result with the API **GET entities** for `logistics:truck`
  
-      https://<MyTenant>/api/v2/entities?pageSize=12000&entitySelector=type(logistics:truck)&Api-Token=<MyToken>
+      https://<MyTenant>/api/v2/entityTypes/logistics:truck?Api-Token=<MyToken>
 
     ![image](https://user-images.githubusercontent.com/40337213/121268163-b40c2100-c8bd-11eb-9207-3b040947a0b2.png)
 
