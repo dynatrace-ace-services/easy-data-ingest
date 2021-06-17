@@ -99,7 +99,7 @@ Run the data ingest for a host :
    Create manually your own custom device and attach the metric to it : 
 
       export CustomDeviceId=<CUSTOM_DEVICE-XXXXXXXX>
-      export Metric=$Prefix".demo5.truck.fuel.total,dt.entity.custom_device="$CustomDeviceId",trucknr=05,model=mac-anthem 9432"    
+      export Metric="truck.fuel.total,dt.entity.custom_device="$CustomDeviceId",trucknr=05,model=mac-anthem 9432"    
       
   to create a custom devive, open 3technologie" and clic on "Custom Device" + [...] + New Custom Device
 ![image](https://user-images.githubusercontent.com/40337213/120234328-06af6280-c258-11eb-9b8e-cb21c0e6bcea.png)
