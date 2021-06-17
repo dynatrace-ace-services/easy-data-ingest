@@ -85,7 +85,7 @@ In this section, we will do it with an hostid an after a manually created custom
 - **hostid**
             
       export HostId=<HOST-XXXXXXXX>
-      export Metric=$Prefix".demo4.truck.fuel.total,dt.entity.host="$HostId",trucknr=04,model=mac-titan 12034"
+      export Metric="demo4.truck.fuel.total,dt.entity.host="$HostId",trucknr=04,model=mac-titan 12034"
 
 to obtain the value of the HOST-XXXX, click on the Host on Dynatarce and find the HOST-XXXXX directly in the URL parameters:  
 ![image](https://user-images.githubusercontent.com/40337213/120121394-7ca5c200-c1a3-11eb-80c2-e081ae6cbde5.png)
@@ -99,7 +99,7 @@ Run the data ingest for a host :
    Create manually your own custom device and attach the metric to it : 
 
       export CustomDeviceId=<CUSTOM_DEVICE-XXXXXXXX>
-      export Metric="truck.fuel.total,dt.entity.custom_device="$CustomDeviceId",trucknr=05,model=mac-anthem 9432"    
+      export Metric="demo5.truck.fuel.total,dt.entity.custom_device="$CustomDeviceId",trucknr=05,model=mac-anthem 9432"    
       
   to create a custom devive, open 3technologie" and clic on "Custom Device" + [...] + New Custom Device
 ![image](https://user-images.githubusercontent.com/40337213/120234328-06af6280-c258-11eb-9b8e-cb21c0e6bcea.png)
@@ -139,7 +139,7 @@ To start this exercise, we will generate a data stream with a shell script :
       git clone https://github.com/dynatrace-ace-services/easy-data-ingest
       cd easy-data-ingest
       chmod +x data-ingest-easy-shipping-ltd.sh
-      ./data-ingest-easy-shipping-ltd.sh &
+      ./data-ingest-easy-shipping-ltd.sh
 
 
 - Result for the Truck data ingest 
