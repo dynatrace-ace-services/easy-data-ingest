@@ -69,7 +69,7 @@ Settings > Topology model > Generic relationships.
 ![image](https://user-images.githubusercontent.com/40337213/121267539-a2764980-c8bc-11eb-985b-5acac8a182b0.png)
 
 - Create relationship 
-![image](https://user-images.githubusercontent.com/40337213/121267074-e87edd80-c8bb-11eb-981e-a607cfe20fe8.png)
+![image](https://user-images.githubusercontent.com/40337213/122436448-1d182680-cf99-11eb-87f0-ab663aa4cbb7.png)
 
 - Add source of the relationship 
 ![image](https://user-images.githubusercontent.com/40337213/121268109-92129e80-c8bd-11eb-971b-83ea982181af.png)
